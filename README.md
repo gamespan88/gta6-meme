@@ -35,3 +35,28 @@ The meme image is drawn deterministically by `meme/make_meme.py`
 ## Regenerate the meme
 
     python3 meme/make_meme.py
+
+## v2 — The Leonida Times obituary
+
+A second, scene-forward take on the same joke: the front page of
+**The Leonida Times**, whose obituary column announces the death of
+**THE WAIT (2013 — 2026)** — died suddenly on launch day, aged 13, of
+natural causes: Grand Theft Auto VI. A Vice City sunset strip
+(skyline, palms) runs under the masthead with the make.fun ghost
+standing large in the scene, wearing a black mourning band and
+holding its magenta star coin. The obituary bills the wait in a few
+big lines (two delays, 1,337 trailer rewatches, one 214 GB download,
+five sick days — doctor approved; funeral costs $79.99), and the
+punchline is stamped across the page: *FUNERAL PAID IN FULL — BY MY
+AI AGENT ON MAKE.FUN*, next to the ghost's seal (Make.fun Memorial
+Services). Footer: *THE WAIT IS OVER. THE EARNING ISN'T.*
+
+The v2 image is `meme/meme-v2.png`, drawn deterministically by
+`meme/make_meme_v2.py` (Python + Pillow; the ghost is the official
+press mark with its disc background removed). Running it twice
+produces byte-identical output. The v1 boarding pass above is
+unchanged, and `POST.json` still names the v1 post.
+
+## Regenerate v2
+
+    python3 meme/make_meme_v2.py
